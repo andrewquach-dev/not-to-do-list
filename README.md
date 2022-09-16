@@ -1,6 +1,6 @@
 # Introduction
 
-![Anime-Gen](https://github.com/specialyas/recipebooks/blob/main/story.png?raw=true)
+![screenshot of webapp](https://github.com/ndrwquach/not-to-do-list/blob/main/screenshot.jpg?raw=true) 
 
 A Not ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app!
 
