@@ -1,10 +1,85 @@
-h1{
-    color: red;
+html {
+    height: 100%;
 }
-.completed{
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ede8e7;
+    min-height: 100%;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 48px;
+    text-decoration: line-through;
+    color: #262222;
+    transition: color 1s;
+}
+
+h1:hover {
+    color: #b64d49;
+    text-decoration: none;
+}
+
+p,
+p>* {
+    font-size: 20px;
+    color: #4c4545;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+
+a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #5199E0;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+a:hover::before {
+    transform: scaleX(1);
+}
+
+.completed {
     text-decoration: line-through;
     color: gray;
 }
-.not{
+
+.not {
     text-decoration: underline;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+}
+
+.card {
+    padding: 50px;
+    background-color: #fcfbfa;
+}
+
+input{
+    background-color: #ede8e7;
 }

@@ -1,6 +1,8 @@
 # Introduction
 
-A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
+![Anime-Gen](https://github.com/specialyas/recipebooks/blob/main/story.png?raw=true)
+
+A Not ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app!
 
 ---
 
